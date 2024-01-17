@@ -1,3 +1,5 @@
+# Nevermind, just testing
+
 SHELL := /bin/bash
 OUTPUT_FORMAT = $(shell if [ "${GITHUB_ACTIONS}" == "true" ]; then echo "github"; else echo ""; fi)
 
